@@ -13,7 +13,8 @@ minecraft {
 
 dependencies {
     compileOnly "org.spongepowered:mixin:0.8.5"
-    compileOnly "com.mrcrayfish:framework-common:${minecraft_version}-${framework_version}"
+    //compileOnly "com.mrcrayfish:framework-common:${minecraft_version}-${framework_version}"
+    compileOnly files("libs/framework-common-1.21.1-0.9.6.jar")
 }
 
 configurations {

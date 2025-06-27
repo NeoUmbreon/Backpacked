@@ -37,11 +37,11 @@ public class FabricPlayerMixin
         ItemStack backpack = Services.BACKPACK.getBackpackStack(player);
         if(backpack.isEmpty())
             return;
-
+        /*
         HolderLookup<Enchantment> lookup = player.level().holderLookup(Registries.ENCHANTMENT);
         if(EnchantmentHelper.getItemEnchantmentLevel(lookup.getOrThrow(ModEnchantments.MARKSMAN), backpack) <= 0)
             return;
-
+        */
         BackpackInventory inventory = ((BackpackedInventoryAccess) player).backpacked$GetBackpackInventory();
         if(inventory == null)
             return;

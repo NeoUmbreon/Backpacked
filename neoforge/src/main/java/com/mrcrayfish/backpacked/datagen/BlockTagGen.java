@@ -23,7 +23,7 @@ public class BlockTagGen extends BlockTagsProvider
     @Override
     protected void addTags(HolderLookup.Provider provider)
     {
-        this.tag(ModTags.Blocks.FUNNELLING).addTag(net.neoforged.neoforge.common.Tags.Blocks.ORES);
+        //this.tag(ModTags.Blocks.FUNNELLING).addTag(net.neoforged.neoforge.common.Tags.Blocks.ORES);
     }
 
     @Override

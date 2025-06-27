@@ -32,6 +32,7 @@ import java.util.Collection;
  */
 public class EnchantmentHandler
 {
+    /*
     public static void init()
     {
         PlayerEvents.PICKUP_EXPERIENCE.register(EnchantmentHandler::onPickupExperience);
@@ -119,4 +120,5 @@ public class EnchantmentHandler
 
         return false;
     }
+    */
 }

@@ -27,7 +27,7 @@ public class Bootstrap
         Network.init();
         UnlockManager.instance();
         BackpackEvents.init();
-        EnchantmentHandler.init();
+        //EnchantmentHandler.init();
         WanderingTraderEvents.init();
         Config.init();
         ModCommands.init();

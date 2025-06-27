@@ -13,6 +13,7 @@ import net.minecraft.world.item.enchantment.Enchantment;
 @RegistryContainer
 public class ModEnchantments
 {
+    /*
     public static final ResourceKey<Enchantment> FUNNELLING = create("funnelling");
     public static final ResourceKey<Enchantment> REPAIRMAN = create("repairman");
     public static final ResourceKey<Enchantment> LOOTED = create("looted");
@@ -23,4 +24,5 @@ public class ModEnchantments
     {
         return ResourceKey.create(Registries.ENCHANTMENT, ResourceLocation.fromNamespaceAndPath(Constants.MOD_ID, name));
     }
+    */
 }

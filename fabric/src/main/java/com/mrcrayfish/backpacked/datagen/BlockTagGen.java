@@ -21,6 +21,7 @@ public class BlockTagGen extends FabricTagProvider.BlockTagProvider
     @Override
     protected void addTags(HolderLookup.Provider arg)
     {
+        /*
         // Does Fabric have any standard tags?
         this.getOrCreateTagBuilder(ModTags.Blocks.FUNNELLING)
                 .forceAddTag(BlockTags.GOLD_ORES)
@@ -31,5 +32,6 @@ public class BlockTagGen extends FabricTagProvider.BlockTagProvider
                 .forceAddTag(BlockTags.COAL_ORES)
                 .forceAddTag(BlockTags.EMERALD_ORES)
                 .forceAddTag(BlockTags.COPPER_ORES);
+        */
     }
 }

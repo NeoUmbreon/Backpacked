@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.Block;
  */
 public class ModTags
 {
+    /*
     public static class Items
     {
         public static final TagKey<Item> BACKPACK_ENCHANTABLE = create("enchantable/backpack");
@@ -31,4 +32,5 @@ public class ModTags
             return TagKey.create(Registries.BLOCK, ResourceLocation.fromNamespaceAndPath(Constants.MOD_ID, name));
         }
     }
+    */
 }

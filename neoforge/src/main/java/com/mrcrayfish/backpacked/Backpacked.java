@@ -103,10 +103,12 @@ public class Backpacked
 
     private void onDropLoot(LivingDropsEvent event)
     {
+        /*
         if(EnchantmentHandler.onDropLoot(event.getDrops(), event.getSource()))
         {
             event.setCanceled(true);
         }
+        */
     }
 
     private void onInteract(PlayerInteractEvent.EntityInteract event)
@@ -130,7 +132,7 @@ public class Backpacked
             ItemStack backpack = Services.BACKPACK.getBackpackStack(player);
             if(backpack.isEmpty())
                 return;
-
+            /*
             HolderLookup<Enchantment> lookup = player.level().holderLookup(Registries.ENCHANTMENT);
             if(backpack.getEnchantmentLevel(lookup.getOrThrow(ModEnchantments.MARKSMAN)) <= 0)
                 return;
@@ -150,6 +152,7 @@ public class Backpacked
             {
                 event.setProjectileItemStack(projectile);
             }
+            */
         }
     }
 
@@ -157,6 +160,7 @@ public class Backpacked
     {
         BlockState state = event.getState();
         Entity breaker = event.getBreaker();
+        /*
         if(state.is(ModTags.Blocks.FUNNELLING) && breaker instanceof ServerPlayer serverPlayer)
         {
             if(EnchantmentHandler.onBreakBlock(state, event.getLevel(), event.getPos(), event.getBlockEntity(), serverPlayer, event.getTool()))
@@ -168,6 +172,7 @@ public class Backpacked
                 }
             }
         }
+        */
     }
 
     private void onLivingDrops(LivingDropsEvent event)

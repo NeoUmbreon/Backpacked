@@ -27,6 +27,7 @@ public class BlockMixin
             cancellable = true)
     private static void backpacked$CaptureDrops(BlockState state, Level level, BlockPos pos, BlockEntity blockEntity, Entity entity, ItemStack stack, CallbackInfo ci)
     {
+        /*
         if(state.is(ModTags.Blocks.FUNNELLING) && entity instanceof ServerPlayer serverPlayer)
         {
             if(EnchantmentHandler.onBreakBlock(state, (ServerLevel) level, pos, blockEntity, serverPlayer, stack))
@@ -34,5 +35,6 @@ public class BlockMixin
                 ci.cancel();
             }
         }
+        */
     }
 }

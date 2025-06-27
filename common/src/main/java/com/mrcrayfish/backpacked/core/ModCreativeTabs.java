@@ -30,12 +30,14 @@ public class ModCreativeTabs
             Registration.get(Registries.ITEM).stream().filter(entry -> entry.getId().getNamespace().equals(Constants.MOD_ID)).forEach(entry -> {
                 output.accept((ItemLike) entry.get());
             });
+            /*
             HolderLookup.RegistryLookup<Enchantment> lookup = params.holders().lookupOrThrow(Registries.ENCHANTMENT);
             Services.PLATFORM.addEnchantedBookToCreativeTab(output, lookup.getOrThrow(ModEnchantments.FUNNELLING));
             Services.PLATFORM.addEnchantedBookToCreativeTab(output, lookup.getOrThrow(ModEnchantments.REPAIRMAN));
             Services.PLATFORM.addEnchantedBookToCreativeTab(output, lookup.getOrThrow(ModEnchantments.LOOTED));
             Services.PLATFORM.addEnchantedBookToCreativeTab(output, lookup.getOrThrow(ModEnchantments.IMBUED_HIDE));
             Services.PLATFORM.addEnchantedBookToCreativeTab(output, lookup.getOrThrow(ModEnchantments.MARKSMAN));
+            */
         });
     });
 }
