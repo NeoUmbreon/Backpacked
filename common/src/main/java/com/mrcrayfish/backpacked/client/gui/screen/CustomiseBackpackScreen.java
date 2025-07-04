@@ -126,6 +126,7 @@ public class CustomiseBackpackScreen extends Screen
             Network.getPlay().sendToServer(new MessageBackpackCosmetics(this.displayBackpack));
         }).pos(this.windowLeft + 7, this.windowTop + 137).size(71, 20).build());
 
+        /*
         this.showEnchantmentGlintButton = this.addRenderableWidget(new CheckBox(this.windowLeft + 133, this.windowTop + 6, CommonComponents.EMPTY, onPress -> {
             this.displayBackpack = this.displayBackpack.setShowEnchantmentGlint(!this.displayBackpack.showEnchantmentGlint());
         }));
@@ -137,7 +138,7 @@ public class CustomiseBackpackScreen extends Screen
         }));
         this.showWithElytraButton.setTooltip(Tooltip.create(SHOW_WITH_ELYTRA_TOOLTIP));
         this.showWithElytraButton.setChecked(this.displayBackpack.showWithElytra());
-
+        */
         this.showEffectsButton = this.addRenderableWidget(new CheckBox(this.windowLeft + 186, this.windowTop + 6, CommonComponents.EMPTY, onPress -> {
             this.displayBackpack = this.displayBackpack.setShowEffects(!this.displayBackpack.showEffects());
         }));
