@@ -3,7 +3,7 @@
         "formatter": "backpacked:percentage",
         "challenge": {
             "type": "backpacked:travel_distance",
-            "movement": "elytra_flying",
+            "movement": "fly",
             "total_distance": 100000
         }
     }
