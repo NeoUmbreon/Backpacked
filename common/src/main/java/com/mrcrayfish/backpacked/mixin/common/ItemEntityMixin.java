@@ -26,6 +26,7 @@ public class ItemEntityMixin
         ItemStack stack = entity.getItem();
         if(stack.getItem() == ModItems.BACKPACK.get())
         {
+            cir.setReturnValue(true);
             /*
             HolderLookup<Enchantment> lookup = entity.level().holderLookup(Registries.ENCHANTMENT);
             if(EnchantmentHelper.getItemEnchantmentLevel(lookup.getOrThrow(ModEnchantments.IMBUED_HIDE), stack) > 0)
